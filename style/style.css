@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.bg_image{
+    position: relative;
+    background-image: url('/img/bg_3.jpg');
+    border-image: none;
+    width: 100%;
+    height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+       /* background-attachment: fixed; */
+  background-position: center; 
+
+}
+#navbar-text .nav-link{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+ 
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.container-fluid{
+    margin-top: 40px;
+}
+.container-fluid .left_content{
+    width: 40%;
+        display: flex;
+    justify-content: center;
+}
+.navbar-brand{
+    margin-right: 20px;
+}
+.nav-link{
+    color: aliceblue;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Zeyada', cursive;
+    /* width: 14%; */
+}
+
+.collapse{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.center-img{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 100%;
+    border-radius: 50%;
+}
+.navbar-expand-lg .navbar-collapse{
+ display: flex;
+}
+   swiper-container {
+      width: 240px;
+      height: 320px;
+    }
+
+/* -----------------------about -------------------------*/
+   #about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-image: url('/img/bg_3.jpg');
+        background-repeat: no-repeat;
+     background-size: cover;
+  background-position: center; 
+   }
+   #about h1{
+    display: flex;
+    margin: 0 auto;
+        color: aliceblue;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Zeyada', cursive;
+ text-align: start;
+justify-content: flex-start;
+   }
+   #about p{
+    width: 70%;
+    color: whitesmoke;
+    font-size: 20px;
+   }
+   .left_contents{
+    width: 60%;
+    margin-top: 150px;
+
+   }
+   .right_contents{
+    width: 40%;
+    margin-top: 150px;
+   }
+.mySwiper{
+    width: 50%;
+    height: 40vh;
+    
+}
+#about button{
+       background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%); 
+         margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            background-size: 200% auto;
+            color: white;            
+            border-radius:50px 50px 50px 50px;
+            display: block;   
+            text-decoration: none;
+            border-color: transparent;
+            text-align: center;
+}
+   #about .left_contents .special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 355px;
+    margin-top: 90px;
+   }
+
+    swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    swiper-slide:nth-child(1n) {
+     background-image: url('/img/team_1.avif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center; 
+    }
+
+    swiper-slide:nth-child(2n) {
+       background-image: url('/img/team_2.jpg');
+      
+    }
+
+    swiper-slide:nth-child(3n) {
+         background-image: url('/img/team_3.jpg');
+    }
+
+    swiper-slide:nth-child(4n) {
+         background-image: url('/img/team_4.jpg');
+    }
+
+    swiper-slide:nth-child(5n) {
+          background-image: url('/img/team_1.jpg');
+    }
+
+    swiper-slide:nth-child(6n) {
+       background-image: url('/img/team_2.jpg');
+    }
+
+    swiper-slide:nth-child(7n) {
+        background-image: url('/img/team_3.jpg');
+    }
+  
+    /* -----------------------discography -------------------------*/
+  #discography{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/img/bg_3.jpg');
+        background-repeat: no-repeat;
+     background-size: cover;
+  background-position: center; 
+   }
+      #discography h1{
+    display: flex;
+        color: aliceblue;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Zeyada', cursive;
+   margin-left: 230px;
+   }
+    #discography .card_content{
+display: flex;
+justify-content: space-around;
+     width: 100%;
+   }
+    
+   #discography .card_content .cards h2{
+    color: white;
+    font-family: 'Zeyada', cursive;
+   
+   }
+      #discography .card_content .cards h4{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+   }
+     #discography .card_content .cards h5{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   /* ene dood taliin player */
+      #discography .card_content .cards .cards_content{
+    /* border: 1px solid transparent; */
+    /* background-color: #042625; */
+   }
+
+   /* end google fonts-oos harj bgaad font-family ugchihuurei */
+   #discography p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+   }
+      #discography button{
+         background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%); 
+         margin: 0 auto;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            background-size: 200% auto;
+            color: white;            
+            border-radius:40px 40px 40px 40px;
+            display: block;   
+            text-decoration: none;
+            border-color: transparent;
+            width: 16%;
+           
+   }
+
+
+
+    /* -----------------------connect -------------------------*/
+  #connect{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/bg_3.jpg');
+        background-repeat: no-repeat;
+     background-size: cover;
+  background-position: center; 
+   }
+      #connect h1{
+    display: flex;
+        color: aliceblue;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Zeyada', cursive;
+   margin-right: 230px;
+   justify-content: end;
+   margin-top: 0;
+   padding-top: 30px;
+   }
+   #connect .left_connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+      width: 40%;
+    color: whitesmoke;
+    font-size: 20px;
+   }
+    #connect .left_connect p{
+    width: 50%;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 155px;
+   }
+   #connect .left_connect .social{
+      display: flex;
+      justify-content: center;
+   }
+     #connect .left_connect .social svg{
+      margin: 0 8px;
+      border-radius: 1px solid white;
+      padding: 3px;
+   }
+         #connect .right_connect{
+            display: flex;
+            flex-direction: column;
+    width: 60%;
+    color: whitesmoke;
+    font-size: 20px;
+   }
+       #connect .right_connect img{
+          border-radius: 50%;
+          margin: 10px 0;
+   }
+     #connect .right_connect .container-fluid .row h2{
+          /* text-transform: uppercase; */
+          font-size: 20px;
+          margin-left: 29px;
+   }
+   .col-md-2 {
+  flex: 0 0 auto;
+  width: 25%;
+  margin-left: 40px;
+}
+  #connect .right_connect .container-fluid  h3{
+          text-transform: uppercase;
+          font-size: 18px;
+          color: #5f2c82;
+          text-align: center;
+         margin-right: 150px;
+         margin-top: 35px;
+         cursor: pointer;
+   }
+     /* -----------------------tour -------------------------*/
+  #tour{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-image: url('/img/bg_3.jpg');
+        background-repeat: no-repeat;
+     background-size: cover;
+  background-position: center; 
+   }
+   #tour .tour_content{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+      #tour .tour_content h1{
+    display: flex;
+        color: aliceblue;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Zeyada', cursive;
+   /* margin-left: 230px; */
+   }
+     #tour .tour_content .tour {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+   }
+       #tour .tour_content .tour h2{
+                color: white;
+                letter-spacing: 30px;
+                font-size: 100px;
+                font-weight: 100;
+   }
+      #tour .tour_content .tour p{
+                color: white;
+              width: 50%;
+              text-align: center;
+   }
+      #tour .tour_content .tour button{
+              background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%); 
+         /* margin: 10px; */
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            background-size: 200% auto;
+            color: white;            
+            border-radius:40px 40px 40px 40px;
+            display: block;   
+            text-decoration: none;
+            border-color: transparent;
+            text-align: center;
+   }
